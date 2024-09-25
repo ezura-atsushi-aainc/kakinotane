@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>アニメショップ えづら</title>
+    <title>verify4 商品Bページ ECサイト</title>
     <!-- Letro -->
     <script>
       window.__letroUgcGadget = window.__letroUgcGadget || {};
@@ -42,8 +42,24 @@
     <!-- End Letro -->
 </head>
 <body>
-  <h1>アニメショップ えづら<h1>
-  <h2>トップをねらえ！<h2>
-  <div class="letroUgcsetGadget" data-contents="letro-gadget" data-gadget-id="132"></div>
+  <h1>verify4</h1>
+  <h1 id="ugcset">UGCセット</h1>
+  <div style="padding: 0 30px">
+      <p>ugcset</p>
+      <div class="letroUgcsetGadget" data-contents="letro-gadget" data-gadget-id="132"></div>
+  </div>
+  <h1 id="snippet">スニペット</h1>
+  <div style="padding: 0 30px">
+      <p>snippet</p>
+  </div>
+  <h1 id="review">レビュー</h1>
+  <div style="padding: 0 30px">
+      <p>review</p>
+  </div>
+  <br>
+  <br>
+  <a href="../page1/index.html">ECサイト 商品Aページ(verify4)</a><br>
+  <a href="../page2/index.html">ECサイト 商品Bページ(verify4)</a><br>
+  <a href="../">ECサイトトップ (verify4)</a><br>
 </body>
 </html>
