@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本番</title>
+    <!-- Letro -->
+    <script>
+    window.__letroUgcGadget = window.__letroUgcGadget || {};
+    __letroUgcGadget.advertiser_id = 1441;
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://letro.jp/tags/js/letro.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'letro-jssdk'));
+    </script>
+    <script>
+        window.addEventListener('load', function() {
+            var id = 'letro-review-js';
+            var sid = 'letro-review-style';
+            if (document.getElementById(id)) {
+              return;
+            }
+            var ram = new Date().getTime();
+            var lrjs = document.createElement('script');
+            lrjs.id = id;
+            lrjs.src = 'https://letro.jp/tags/js/letro-review.js?v=' + ram;
+            var lrs = document.createElement('link');
+            lrs.id = sid;
+            lrs.rel = 'stylesheet';
+            lrs.href = 'https://letro.jp/tags/css/letro-review.css?v=' + ram;
+            document.body.appendChild(lrjs);
+            document.head.appendChild(lrs);
+            var ltag = document.createElement('div');
+            ltag.setAttribute('class', '__letro-review-tag');
+            ltag.setAttribute('data-ec-site-id', '65d2f6314ccf8');
+            document.body.appendChild(ltag);
+        });
+    </script>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (document.getElementById(id)) return;
+        var ram = new Date().getTime();
+        js = d.createElement(s);
+        js.id = id;
+        js.dataset.advertiserId = '1441';
+        js.src = 'https://letro.jp/tags/js/letro-content.js?v=' + ram;
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'letro-content-js'));
+    </script>
+    <!-- End Letro -->
+</head>
+<body>
+  <h1>本番</h1>
+  <h1 id="ugcset">UGCセット</h1>
+  <div style="padding: 0 30px">
+      <p>ugcset</p>
+  </div>
+  <h1 id="snippet">スニペット</h1>
+  <div style="padding: 0 30px">
+      <p>snippet</p>
+  </div>
+  <h1 id="review">レビュー</h1>
+  <div style="padding: 0 30px">
+      <p>review</p>
+  </div>
+  <br>
+  <a href="./multipage">マルチページ(本番)</a>
+</body>
+</html>

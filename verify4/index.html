@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verify4</title>
+    <!-- Letro -->
+    <script>
+      window.__letroUgcGadget = window.__letroUgcGadget || {};
+      __letroUgcGadget.advertiser_id = 19;
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://verify4.letro.jp/tags/js/letro.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'letro-jssdk'));
+    </script>
+    <script>
+      window.addEventListener('load', function() {
+        var id = 'letro-review-js';
+        var sid = 'letro-review-style';
+        if (document.getElementById(id)) {
+          return;
+        }
+        var ram = new Date().getTime();
+        var lrjs = document.createElement('script');
+        lrjs.id = id;
+        lrjs.src = 'https://verify4.letro.jp/tags/js/letro-review.js?v=' + ram;
+        var lrs = document.createElement('link');
+        lrs.id = sid;
+        lrs.rel = 'stylesheet';
+        lrs.href = 'https://verify4.letro.jp/tags/css/letro-review.css?v=' + ram;
+        document.body.appendChild(lrjs);
+        document.head.appendChild(lrs);
+        var ltag = document.createElement('div');
+        ltag.setAttribute('class', '__letro-review-tag');
+        ltag.setAttribute('data-ec-site-id', "66f27ccb36721");
+        document.body.appendChild(ltag);
+      });
+    </script>
+    <!-- End Letro -->
+</head>
+<body>
+  <h1>verify4</h1>
+  <h1 id="ugcset">UGCセット</h1>
+  <div style="padding: 0 30px">
+      <p>ugcset</p>
+  </div>
+  <h1 id="snippet">スニペット</h1>
+  <div style="padding: 0 30px">
+      <p>snippet</p>
+  </div>
+  <h1 id="review">レビュー</h1>
+  <div style="padding: 0 30px">
+      <p>review</p>
+  </div>
+  <br><hr><br>
+  <a href="./simple">シンプル(verify4)</a><br>
+  <a href="./simple_ab">シンプル・ABテスト(verify4)</a><br>
+  <a href="./multipage">マルチページ(verify4)</a><br>
+  <a href="./multipage_ab">マルチページ・ABテスト(verify4)</a><br>
+  <br>
+  <a href="/">トップ</a><br>
+</body>
+</html>
