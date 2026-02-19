@@ -11,8 +11,7 @@
   __letroUgcGadget.advertiser_id = 1441;
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
+    if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
     js.src = "https://letro.jp/tags/js/letro.js";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'letro-jssdk'));
@@ -66,7 +65,10 @@
     <br>
     <hr>
     <br>
-    <h2 id="snippet">お客様から頂戴したレビューの要約</h2>
+    <h2>お客様から頂戴したレビューの要約</h2>
+    <div style="display:flex; justify-content:center;">
+      <div id="snippet"></div>
+    </div>
     <br>
     <hr>
     <br>
